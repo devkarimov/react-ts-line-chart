@@ -1,0 +1,74 @@
+.tooltip {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.tooltipHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tooltipDivider {
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 8px 0;
+  width: 100%;
+}
+
+.tooltipList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tooltipItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.tooltipItemLeft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tooltipDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.tooltipName {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.tooltipValue {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-left: auto;
+}
+
+.trophyIcon {
+  color: #FFD700; /* Gold color for trophy */
+  width: 14px;
+  height: 14px;
+}
+
+.calendarIcon {
+  width: 16px;
+  height: 16px;
+  color: var(--text-secondary);
+}

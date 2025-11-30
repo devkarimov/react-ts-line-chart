@@ -1,0 +1,73 @@
+.controlsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  background-color: var(--bg-primary);
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.group {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownButton {
+  min-width: 200px;
+  text-align: left;
+}
+
+.dropdownContent {
+  position: absolute;
+  background-color: var(--bg-primary);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+}
+
+.zoomGroup {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-primary);
+}
+
+.zoomButtonLeft {
+  border: none;
+  border-radius: 4px 0 0 4px;
+  padding: 8px 12px;
+}
+
+.zoomButtonRight {
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 12px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--border-color);
+}
+
+.iconButton {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
